@@ -23,13 +23,13 @@ From: ubuntu:20.04
 %environment
     export LC_ALL=C
     export PATH=/usr/games:$PATH
-
+    export TMPDIR=""
 %runscript
     seqclust $@
 
 %labels
     Author petr@umbr.cas.cz
-    Version v0.0.1
+    Version v0.0.2
 
 %test
     cd /opt/repex_tarean/

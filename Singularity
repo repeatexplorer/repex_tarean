@@ -17,7 +17,7 @@ From: ubuntu:20.04
     Rscript /opt/R_install.R
     pip3 install pyRserve
     cd opt
-    git clone https://petrnovak@bitbucket.org/petrnovak/repex_tarean.git
+    git clone https://github.com/kavonrtep/repex_tarean.git
     cd repex_tarean && make
     ln -s /opt/repex_tarean/seqclust /usr/local/bin/seqclust
 %environment
